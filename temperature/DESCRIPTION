@@ -1,0 +1,15 @@
+Package: temperature
+Title: Temperature Simulation and Climate Risk Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person("El Hassan", "Azakaf", email = "elhassanazakaf@gmail.com", role = c("aut", "cre"))
+Description: Provides tools for temperature modeling, simulation, and climate Value-at-Risk analysis using historical and simulated temperature data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
+Imports: 
+    dplyr,
+    lubridate,
+    rlang,
+    zoo
